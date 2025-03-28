@@ -13,3 +13,7 @@ h1{
 h2{
      font-family: Luminary, Papyrus, Fantasy;
    }
+.center{
+    margin-right: auto;
+    margin-left: auto;
+   }
