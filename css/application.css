@@ -1,3 +1,15 @@
-body {
-  margin:0 auto;
+html {
+       background-color: antiquewhite;
+     }
+p {
+font-family: Luminary, Papyrus, Fantasy;
 }
+:root {
+    text-align: center;
+   }
+h1{
+     font-family: Luminary, Papyrus, Fantasy;
+   }
+h2{
+     font-family: Luminary, Papyrus, Fantasy;
+   }
