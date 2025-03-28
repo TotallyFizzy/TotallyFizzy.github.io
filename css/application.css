@@ -1,15 +1,26 @@
+
+@font-face
+{
+    font-family: Henotica;
+    src: url("fonts/Henotica.ttf")
+}
+@font-face
+{
+    font-family: Quitle;
+    src: url("fonts/Quitle.ttf")
+}
 html {
        background-color: antiquewhite;
      }
 p {
-font-family: Luminary, Papyrus, Fantasy;
+font-family: Henotica;
 }
 :root {
     text-align: center;
    }
 h1{
-     font-family: Luminary, Papyrus, Fantasy;
+     font-family: Quitle;
    }
 h2{
-     font-family: Luminary, Papyrus, Fantasy;
+     font-family: Quitle;
    }
