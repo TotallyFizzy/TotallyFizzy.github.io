@@ -24,4 +24,14 @@ section {
   background-color: DarkBlue;
   border-style: solid;
   border-color: DodgerBlue;
+  width: 40vw;
+  margin-bottom: 20px;
+}
+section p {
+   color: goldenRod;
+    font-family: papyrus, fantasy;
+}
+section h1{
+   color: gold;
+    font-family: papyrus, fantasy;
 }
