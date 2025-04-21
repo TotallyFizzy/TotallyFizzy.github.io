@@ -31,7 +31,11 @@ section p {
    color: goldenRod;
     font-family: papyrus, fantasy;
 }
-section h1{
+section h2{
    color: gold;
     font-family: papyrus, fantasy;
 }
+.center{
+    margin-right: auto;
+    margin-left: auto;
+   }
