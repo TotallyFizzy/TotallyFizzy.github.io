@@ -1,0 +1,43 @@
+html {
+       background-color: antiquewhite;
+     }
+p {
+font-family: papyrus, fantasy;
+}
+:root {
+    text-align: center;
+   }
+h1{
+     font-family: papyrus, fantasy;
+   }
+h2{
+     font-family: papyrus,fantasy;
+   }
+img{
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: DodgerBlue;
+}
+a {
+       color: Blue;
+}
+section {
+  background-color: DarkBlue;
+  border-style: solid;
+  border-color: DodgerBlue;
+  width: 40vw;
+  margin-bottom: 20px;
+}
+section p {
+   color: goldenRod;
+    font-family: papyrus, fantasy;
+}
+section h2{
+   color: gold;
+    font-family: papyrus, fantasy;
+}
+.center{
+    margin-right: auto;
+    margin-left: auto;
+   }
