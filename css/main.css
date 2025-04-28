@@ -3,15 +3,18 @@ html {
      }
 p {
 font-family: papyrus, fantasy;
+font-size: 3vw;
 }
 :root {
     text-align: center;
    }
 h1{
      font-family: papyrus, fantasy;
+     font-size: 5vw;
    }
 h2{
      font-family: papyrus,fantasy;
+     font-size: 5vw;
    }
 img{
   width: 30vw;
@@ -19,4 +22,8 @@ img{
 }
 a {
        color: Blue;
+}
+li {
+font-family: papyrus, fantasy;
+font-size: 3vw;
 }
