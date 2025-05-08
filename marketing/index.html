@@ -3,7 +3,7 @@
  <head>
    <meta charset="UTF-8">
    <title>
-     Heritage Market
+     Template
    </title>
    <style>
      .logo {
@@ -12,21 +12,79 @@
      .shop-window {
       width: 100%;
      }
+     .half-fill {
+      width: 50%;
+      float: right;
+     }
      html {
        background-color: indianred;
      }
      .white-fill {
-              flex-grow: 1;
+         flex-grow: 1;
+       background-color: white;
+     }
+     .white-fill-border {
+        flex-grow: 1;
+       background-color: white;
+       border-style: solid;
+       border-color: white;
+     }
+     .paragraph {
+       font-family: verdana, Sans-Serif;
+       text-align: center;   
+       color: dimgray;
+     }
+     .move-list-to-right {
+       float: left;
+       background-color: "white";
+     }
+     .move-li-middle {
+      font-family: verdana, Sans-Serif;
+       text-align: center;   
+       color: dimgray;
+     }
+     .innerSecRight {
+      width: 100%;
+       float: right;
+       padding: : 2px;
        background-color: white;
      }
    </style>
  </head>
   <body>
-    <section class = "white-fill">
+    <div class = "white-fill">
     <img src="https://totallyfizzy.github.io/images/HeritageLogo.jpg" alt="Heritage market Logo" class = "logo" >
-    </section>
-    <section class = "white-fill">
+    </div>
+    <div class = "white-fill">
       <img src="https://totallyfizzy.github.io/images/supermarketblur.jpg" alt="Blurred supermarket" class = "shop-window" >
-    </section>
+    </div>
+    <div class = "white-fill-border">
+      <p class = "paragraph">At heritage market, you can find products that fit all of your shopping needs!</p>
+    </div>
+    <div class = "white-fill-border">
+      <p class = "paragraph">We have:</p>
+    </div>
+    <div class = white-fill-border>
+       <div class = "innerSecRight">
+          <img src="https://totallyfizzy.github.io/images/fruitpile.jpg" alt="assorted fruit" class = "half-fill" >
+       <ul class = "move-list-to-right">
+          <li class = "move-li-middle">fruits</li>
+          <li class = "move-li-middle">vegetables</li>
+          <li class = "move-li-middle">dairy</li>
+          <li class = "move-li-middle">beverages</li>
+          <li class = "move-li-middle">deli</li>
+          <li class = "move-li-middle">pharmacy</li>
+          <li class = "move-li-middle">toiletries</li>
+          <li class = "move-li-middle">meat</li>
+          <li class = "move-li-middle">seafood</li>
+          <li class = "move-li-middle">pet supplies</li>
+          <li class = "move-li-middle">cards</li>
+          <li class = "move-li-middle">frozen dinners</li>
+          <li class = "move-li-middle">desserts</li>
+          <li class = "move-li-middle">baked goods</li>
+          <li class = "move-li-middle">and more!</li>
+        </ul>
+       </div>
+    </div>
   </body>
 </html>
