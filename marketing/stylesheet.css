@@ -1,0 +1,56 @@
+.logo {
+       width: 30vw;
+     }
+     .shop-window {
+      width: 100%;
+     }
+     .half-fill {
+      width: 50%;
+      float: right;
+     }
+     .half-fill-stretch {
+      width: 50%;
+      height: 100%;
+      float: left;
+
+     }
+     html {
+       background-color: indianred;
+     }
+     .white-fill {
+         flex-grow: 1;
+       background-color: white;
+     }
+     .white-fill-border {
+        flex-grow: 1;
+       background-color: white;
+       border-style: solid;
+       border-color: white;
+     }
+     .paragraph {
+       font-family: verdana, Sans-Serif;
+       text-align: center;   
+       color: dimgray;
+     }
+     .WebsiteLink {
+       font-family: verdana, Sans-Serif;
+       text-align: center;  
+       background-color: yellow;
+       color: red;
+     }
+     .move-list-to-right {
+       float: left;
+       background-color: "white";
+     }
+     .move-li-middle {
+      font-family: verdana, Sans-Serif;
+       text-align: center;   
+       color: dimgray;
+       font-size: 100%;
+     }
+     .innerSecRight {
+      width: 100%;
+       float: right;
+       padding: : 2px;
+       background-color: white;
+     }
